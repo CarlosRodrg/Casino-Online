@@ -6,12 +6,15 @@ import { GameSelector } from "@/components/game-selector"
 import type { User } from "@/lib/auth"
 
 export default function Home() {
+  // Estado del usuario actualmente autenticado
   const [user, setUser] = useState<User | null>(null)
 
+  // Función para manejar login exitoso
   const handleLogin = (userData: User) => {
     setUser(userData)
   }
 
+  // Función para manejar logout
   const handleLogout = () => {
     setUser(null)
   }
@@ -21,6 +24,7 @@ export default function Home() {
       {!user ? (
         <LandingPage onLogin={handleLogin} />
       ) : (
+        // Si hay usuario, mostramos el selector de juegos
         <GameSelector user={user} onLogout={handleLogout} />
       )}
     </main>
