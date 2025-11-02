@@ -11,6 +11,9 @@ interface LandingPageProps {
   onLogin: (user: User) => void
 }
 
+// Componente que muestra la página de inicio antes de loguearse
+// Recibe onLogin: función que se llama cuando el usuario inicia sesión
+
 export function LandingPage({ onLogin }: LandingPageProps) {
   const [showLogin, setShowLogin] = useState(false)
   const [showRegister, setShowRegister] = useState(false)
