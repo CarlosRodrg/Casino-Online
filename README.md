@@ -21,7 +21,7 @@ Este proyecto es una aplicación web estilo **casino online**, donde los usuario
 
 Registro e inicio de sesión de usuarios  
 Gestión de perfil y autenticación (Supabase)  
-Juego de **tragaperras (slot machine)** funcional  
+Juegod de **casinos (slot machine)** funcionales 
 Interfaz moderna y responsiva con Tailwind + Radix  
 Validación de formularios con Zod  
 Manejo de errores y pantallas de carga  
