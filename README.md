@@ -1,4 +1,4 @@
-# 🎰 Casino Online – Proyecto CRUD con Juegos de Tragaperras
+# 🎰 Casino Online – Proyecto CRUD
 
 Este proyecto es una aplicación web estilo **casino online**, donde los usuarios pueden autenticarse y acceder a diferentes juegos como **tragaperras (slots)** y otros minijuegos dentro de la plataforma. Incluye manejo de usuarios, interfaz gráfica moderna y persistencia de datos.
 
