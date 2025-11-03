@@ -42,7 +42,6 @@ export function GameSelector({ user, onLogout }: GameSelectorProps) {
           </div>
         </div>
         <Button onClick={onLogout} variant="outline">
-          <Arrowleft />
           Salir
         </Button>
       </header>
